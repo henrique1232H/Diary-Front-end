@@ -8,6 +8,10 @@ export const Container = styled.div`
     border-radius: 1rem;
     background: ${({theme}) => theme.COLOR.white};
     color: #000;
+
+    &:hover {
+        background: red;
+    }
 `
 
 export const Title = styled.div`

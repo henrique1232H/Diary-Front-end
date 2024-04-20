@@ -10,3 +10,18 @@ export const Button = styled.button`
     border: none;
     cursor: pointer;
 `
+
+export const Menu = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+`
+
+
+
+export const Flex = styled.div`
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+`
