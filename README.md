@@ -1,8 +1,10 @@
-# React + Vite
+# Diary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First project using React. In this project i want create a diary where the client can use to add notes, ideas and more;
+This is a front-end, install Diary Back-end for a better experience using this project;
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to use
+
+- install o node_modules: npm i
+- start a project: npm run dev
