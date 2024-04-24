@@ -16,6 +16,10 @@ export const Menu = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    padding: 1rem 2rem;
+
+    border-bottom: 1px solid gray;
+
 `
 
 
@@ -24,4 +28,8 @@ export const Flex = styled.div`
     display: flex;
     gap: 1rem;
     align-items: center;
+`
+
+export const App = styled.div`
+    padding: 1rem 2rem;
 `

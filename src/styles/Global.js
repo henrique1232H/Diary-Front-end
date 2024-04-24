@@ -11,7 +11,6 @@ export default createGlobalStyle`
     body {
         background: ${({theme}) => theme.COLOR.Background};
         color: ${({theme}) => theme.COLOR.white};
-        padding: 1rem 2rem;
     }
 
     :root {

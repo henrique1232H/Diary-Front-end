@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Container, Paragraph, Title } from "./style";
 
-export default function Diary(information) {
+export default function Diary({props}) {
 
 
     return (
@@ -8,12 +9,12 @@ export default function Diary(information) {
 
             <Title>
                 <h2>
-                    {information.diary.title}
+                    {props.title}
                 </h2>
                 <span>aa</span>
             </Title>
 
-            <Paragraph>{information.diary.paragraph}</Paragraph>
+            <Paragraph>{props.paragraph}</Paragraph>
             
         </Container>
     )

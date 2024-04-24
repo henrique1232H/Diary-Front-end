@@ -1,22 +1,10 @@
-import { Title, Menu, Flex} from "./style"
-import Diary from "../../components/diary"
+import { Title, Menu, Flex, App} from "./style"
+
 import DialogButton from "../../components/DialogButton";
 import { List } from "@phosphor-icons/react";
 
 
 export default function Home() {
-
-    const array = [
-        {title: "alo",
-         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, asperiores ipsa quia laborum numquam provident, aliquam, illum aspernatur nobis qui itaque alias voluptas amet. Enim quos iste deleniti recusandae in?"
-        },
-        {title: "alo2",
-         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, asperiores ipsa quia laborum numquam provident, aliquam, illum aspernatur nobis qui itaque alias voluptas amet. Enim quos iste deleniti recusandae in?"
-
-        }
-    ];
-
-    let value = 0
 
     return (
         <>  
@@ -33,10 +21,13 @@ export default function Home() {
                 <DialogButton />
             </Menu>
 
+            <App>
 
-            {array.map(entries => {
-                return <Diary key={value++} diary={entries}/>
-            })}
+
+
+            </App>
+
+
 
         </>
     )
